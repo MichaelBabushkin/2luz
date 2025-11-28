@@ -7,6 +7,8 @@ interface User {
   userId: string;
   email: string;
   name: string;
+  partnerCode?: string;
+  partnerId?: string | null;
 }
 
 interface AuthContextType {
